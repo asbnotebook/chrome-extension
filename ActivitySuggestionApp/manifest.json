@@ -1,0 +1,21 @@
+{
+    "name": "Activity suggestions app",
+    "version": "1.0",
+    "description": "Activity suggestion extention for chrome!",
+    "chrome_url_overrides":{
+        "newtab":"activities.html"
+    },
+    "browser_action": {
+        "default_icon": "activity.png"
+    },
+    "background" : {
+        "scripts" : [ "background.js" ],
+        "persistent" : false
+    },
+    "icons" : { 
+        "16" : "activity.png",
+        "48" : "activity.png",
+        "128" : "activity.png"
+    },
+    "manifest_version": 2
+}
